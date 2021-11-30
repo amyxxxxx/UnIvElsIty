@@ -1,1 +1,1 @@
-web: gunicorn -b "0.0.0.0:$PORT -w 3 to_do_list.wsgi
+web: gunicorn -b "0.0.0.0:$PORT" -w 3 to_do_list.wsgi
